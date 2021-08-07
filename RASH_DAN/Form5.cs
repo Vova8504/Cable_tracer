@@ -229,7 +229,7 @@ namespace RASH_DAN
         public List<VINOS> PovtVinoski = new List<VINOS>();
         public List<PEREXOD> PovtPEREX = new List<PEREXOD>();
         public List<PLOS> SpPLOS = new List<PLOS>();//Список плоскостей 
-        public List<TPodk> Tochki = new List<TPodk>();
+        public List<TPodk> Tochki = new List<TPodk>();//Список точек
         public List<TPodk> TochkiSort = new List<TPodk>();//Список точек для гиртвювера без повторов
         public List<TPodk> TochkiRazv = new List<TPodk>();//список точек для разводки
         public List<ZaPis> SgrupVK = new List<ZaPis>();
