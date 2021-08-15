@@ -4022,7 +4022,7 @@ namespace RASH_DAN
                 KrugPOZVn.SetDatabaseDefaults();
                 KrugPOZVn.Center = Toch1;
                 KrugPOZVn.Radius = rad;
-                KrugPOZVn.Layer = "ТРАССЫскрытые";
+                KrugPOZVn.Layer = "Kabeli";
                 KrugPOZVn.ColorIndex = Zvet;
                 KrugPOZVn.XData = new ResultBuffer(
                 new TypedValue(1001, "LAUNCH01"),
@@ -4039,7 +4039,7 @@ namespace RASH_DAN
                 Poz.Height = VisT;
                 Poz.ColorIndex = Zvet;
                 Poz.TextString = IND+ Gr;
-                Poz.Layer = "ТРАССЫскрытые";
+                Poz.Layer = "Kabeli";
                 btr.AppendEntity(Poz);
                 btr.XData = new ResultBuffer(
                 new TypedValue(1001, "LAUNCH01"),
@@ -4053,7 +4053,7 @@ namespace RASH_DAN
                 Diam.Height = VisT;
                 Diam.ColorIndex = Zvet;
                 Diam.TextString = "D=" +(rad*2).ToString("#.00");
-                Diam.Layer = "ТРАССЫскрытые";
+                Diam.Layer = "Kabeli";
                 btr.AppendEntity(Diam);
                 btr.XData = new ResultBuffer(
                 new TypedValue(1001, "LAUNCH01"),
